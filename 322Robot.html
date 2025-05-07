@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Davis's Portfolio - Thesis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.photo-gallery {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr); /* 2 columns */
+				grid-gap: 20px; /* spacing between photos */
+				margin-top: 40px;
+			}
+	
+			.gallery-item {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+			}
+	
+			.gallery-item img {
+				width: 100%;
+				max-width: 300px;
+				height: auto;
+				border-radius: 8px;
+				box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+			}
+	
+			.gallery-item p {
+				text-align: center;
+				font-size: 14px;
+				color: #333;
+				margin-top: 8px;
+			}
+		</style>
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">Portfolio Home</a></h1>
+					<nav class="links">
+						<ul>
+							<li><a href="emtech.html">Emtech Summer Internship</a></li>
+							<li><a href="kenotom.html">Kenotom Summer Internship</a></li>
+							<li><a href="socialchair.html">Social Chair - The Cap & Gown Club</a></li>
+						</ul>
+					</nav>
+					
+				</header>
+
+
+			<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="#">MAE 322 Engineering Design Project: An Autonomous Search and Rescur Robot</a></h2>
+										<p>This post showcases the completion of an autonomous search and rescue robot as part of my senior engineering design course. This was a 10 person collaborative project.</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="Spring 2025">Spring 2025</time>
+										<a href="#" class="author"><span class="name">David Herrera</span><img src="images/avatar.jpg" alt="" /></a>
+									</div>
+								</header>
+								<span class="image featured"><img src="images/322robot.png" alt="" /></span>
+								<p> Abstract:
+								</p>
+
+								<p> The objective of this project is to design a Search and Rescue Robot that can
+									autonomously traverse an obstacle course, navigate toward a light source, and deliver a
+									medical kit. The first obstacle is a ramp with an overall
+									length of 8 feet. The second obstacle is a dogleg chute, which is comprised of three 6-8 feet
+									long segments, made of 18” high plywood walls, with a spacing of 3 feet. The final obstacle
+									is a wall. The wall is 1 foot high and 3 feet wide, with a 6” step on the front side. A secondary
+									goal of the project is to get the robot to traverse the course as fast as possible. The robot
+									must also be robust enough to survive a 1 foot drop test.</p>
+
+								
+								<p> The robot was designed to be a three-wheeled vehicle with an aluminum chassis. The wheels have 3D printed
+									rubber hooks for better traction, and the robot is powered by a 12V battery and uses a
+									DC CIM motor for propulsion. An Arduino Teensy microcontroller is used to
+									control the motors and sensors, as well as run the autonomous script.</p>
+
+								<p> This project was completed in a group of 10 students, and proved to be an incredible teambuilding exercize. 
+									I was primarily responsible for the manufacturing of the robot,
+									as well as the testing and validation of the autonomous code. Because it involved many machine shop hours, communication
+									was essential in completing the project efficiently. Ultimately, the team chose to go with a "Perry The Platypus" Theme and 3D printed
+									a cover for the robot to look like Perry!
+								</p>
+
+								
+
+
+								<ul class="actions" style="display: flex; gap: 10px; justify-content: center;">
+									<li><a href="https://drive.google.com/file/d/1v1s4lrfGSBTyijSdLXGH9ULClXew4eah/view?usp=sharing" class="button large" target="_blank">View Final Design Report</a></li>
+									<li><a href="https://drive.google.com/drive/folders/1Yv76NXefJp7qG6xDEY0dlYaSKw5q4PSw?usp=sharing" class="button large" target="_blank">View Test Run Videos</a></li>	
+								</ul>
+
+
+								<p style="text-align: center;">
+									The following is a photo gallery of the the project!
+								</p>
+
+									<!-- Photo Gallery -->
+								<div class="photo-gallery">
+									<div class="gallery-item" style="width: 40%; max-width: 400px; margin: 10px; transform: translateX(200px);">
+										<img src="images/322pics/topview.png" style="width: 200%; height: 200%; object-fit: cover; border-radius: 8px;" />
+										<p><strong>Photo 1:</strong> This shows the top view of the robot in CAD.</p>
+									</div>
+									<div class="gallery-item" style="width: 40%; max-width: 400px; margin: 10px; transform: translateX(200px);">
+										<img src="images/322pics/medkitdelivery.png" style="width: 200%; height: 200%; object-fit: cover; border-radius: 8px;" />
+										<p><strong>Photo 2:</strong> This shows the medkit delivery system. A flexible rubber wheel is used to grab the cube shaped med kit
+										and spins on command to throw it in the box.</p>
+									</div>
+									<div class="gallery-item" style="width: 40%; max-width: 400px; margin: 10px; transform: translateX(200px);">
+										<img src="images/322pics/frameacrylic.png" style="width: 200%; height: 200%; object-fit: cover; border-radius: 8px;" />
+										<p><strong>Photo 3:</strong> This is a photo of the aluminum frame being attached to the laser cut acrylic sheet below it. </p>
+									</div>
+									<div class="gallery-item" style="width: 40%; max-width: 400px; margin: 10px; transform: translateX(200px);">
+										<img src="images/322pics/firstroll.png" style="width: 200%; height: 200%; object-fit: cover; border-radius: 8px;" />
+										<p><strong>Photo 4:</strong> This was when the robot was first rolled! </p>
+									</div>
+									<div class="gallery-item" style="width: 40%; max-width: 400px; margin: 10px; transform: translateX(200px);">
+										<img src="images/322pics/sideview.png" style="width: 200%; height: 200%; object-fit: cover; border-radius: 8px;" />
+										<p><strong>Photo 5:</strong> This is a side view of the robot as it approached the obstacle course.</p>
+									</div>
+								</div>
+
+								<ul class="actions" style="display: flex; gap: 10px; justify-content: center;">
+									<li><a href="index.html" class="button large" >Portfolio Home</a></li>
+								</ul>
+							
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<p class="copyright">&copy; Design: <a href="http://html5up.net">HTML5 UP</a>.</p>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
